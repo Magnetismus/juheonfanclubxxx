@@ -1,0 +1,25 @@
+/* Hintergrundbild setzen */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('images/Tomb-Raider-King.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Stil für den Text */
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Dunkler Hintergrund für Lesbarkeit */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
